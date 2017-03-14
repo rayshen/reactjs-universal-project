@@ -5,8 +5,11 @@ reactjs-universal-project
 
 使用方法:<br>
 npm install<br>
+<br>
 调试命令:<br>
 npm run dev<br>
+浏览器打开http://localhost:8080<br>
+<br>
 打包命令<br>
 npm run build<br>
 <p>
