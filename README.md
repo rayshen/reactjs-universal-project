@@ -7,7 +7,7 @@ reactjs-universal-project
 npm install<br>
 调试命令:<br>
 npm run dev<br>
-打包命令
+打包命令<br>
 npm run build<br>
 <p>
 demo截图：<br>
