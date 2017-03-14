@@ -3,6 +3,13 @@ reactjs-universal-project
 作为通用模板以快速开发<br>
 以夜间模式的开启、关闭，以及如何关闭网页后重启继续从缓存读取为例。<br>
 
+使用方法:<br>
+npm install<br>
+调试命令:<br>
+npm run dev<br>
+打包命令
+npm run build<br>
+<p>
 demo截图：<br>
 <img width='320px' src="https://ooo.0o0.ooo/2017/03/14/58c7f50f3cdf1.png" alt="WX20170314-214733@2x.png" title="WX20170314-214733@2x.png" />
 <p>
