@@ -1,0 +1,7 @@
+{
+  "presets": ["react", "es2015","stage-0"],
+  "plugins": [
+    ["antd",{"style": "css","libraryName": "antd"}] //桌面版UI
+    // ["antd",{"style": "css","libraryName": "antd-mobile"}] //手机版UI，目前高清方案很乱，支持很差
+  ]
+}
