@@ -5,19 +5,12 @@ import '../index.html';
 // Import css
 import '../styles/styles.css';
 // Import Components
-import App from './app';
-
-
-// ant-d-mobile 目前支持很差，故只打通使用，不深入
-// import index from './components/mobile';
-
-//ant-d桌面版
-import index from './pages/pc';
-import detail from './pages/pc/detail';
-
+import App from './pages/app';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import { Provider } from 'react-redux';
-import store from './store/index.js';
+import store from './redux/index.js';
+import index from './pages/pc';
+import detail from './pages/pc/detail';
 
 const router = (
   <Provider store={store}>
@@ -31,4 +24,5 @@ const router = (
     </Router>
   </Provider>
 )
+
 render(router, document.getElementById('root'));

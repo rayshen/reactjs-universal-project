@@ -1,8 +1,11 @@
-import { createStore, applyMiddleware } from 'redux';
+import { createStore, applyMiddleware,combineReducers} from 'redux';
 import thunk from 'redux-thunk';
+import { routerReducer } from 'react-router-redux';
 
-// import the root reducer
-import rootReducer from '../reducers/index';
+import {appReducer} from './app';
+
+const rootReducer = combineReducers({app:appReducer, routing: routerReducer});
+
 
 const configureStore = (initialState) =>{
     return createStore(rootReducer,initialState,applyMiddleware(thunk));

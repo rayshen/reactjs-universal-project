@@ -3,7 +3,7 @@ import { PropTypes,withRouter} from 'react-router';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import appActions from '../../actions/app';
+import * as appActions from '../../redux/app';
 
 //UI component
 import {Button} from 'antd';
